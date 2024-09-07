@@ -40,7 +40,7 @@ const SignUp = () => {
 
     try {
       // Llamada a la API para registrar un nuevo usuario
-      const response = await axiosInstance.post("/create-account", {
+      const response = await axiosInstance.post("/SignUp", {
         fullName: name,
         email: email,
         password: password,
